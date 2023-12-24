@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily</title>
+    <style>
+      @font-face {
+        font-family: "CustomFont";
+        src: url("squidgame.ttf") format("truetype");
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("emily.png") center/cover no-repeat;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+      }
+
+      header {
+        font-family: "CustomFont", sans-serif;
+        color: #ed1b76;
+        background-color: #203846;
+        border-radius: 1svw;
+        font-size: 16px;
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      video {
+        max-width: 60%;
+        max-height: 60%;
+        border: 10px solid #de7445;
+        border-radius: 1svw;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="emily_name.png" />
+    </header>
+    <video controls>
+      <source src="emily.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
